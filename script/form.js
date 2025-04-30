@@ -17,8 +17,9 @@ form.addEventListener('submit', function (event) {
   const email = emailInput.value
   const message = messageInput.value
 
-  console.log(firstName, secondName, email, message)
+  //   console.log(firstName, secondName, email, message)
 
+  //now lets display the values in the output
   output.innerHTML = `
     <p style="color:green">Message sent!</p>
     <ul>

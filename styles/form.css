@@ -4,10 +4,10 @@
   margin-bottom: 0.5em;
 }
 
-.outro-txt {
+/* .outro-txt {
   font-weight: bold;
   color: black;
-}
+} */
 
 .btn-2 {
   padding: 0.5em;
@@ -15,8 +15,8 @@
   color: white;
   border: none;
   border-radius: 5px;
-  width: 100%;
   margin: 0.5em 0 2em 0;
+  width: 100%;
 }
 
 .btn-2:hover {
@@ -28,7 +28,6 @@ input {
   margin: 0.5em 0 0.5em 0;
   border-radius: 5px;
   border: 1px solid #333;
-  width: 98%;
   transition: all 0.3s ease-in-out;
 }
 
@@ -40,12 +39,19 @@ input:hover {
   height: 5em;
 }
 
+.container-card {
+  display: flex;
+  justify-content: center; /* horizontal center */
+  align-items: center; /* vertical center */
+}
 .card {
   display: flex;
   flex-direction: column;
+  justify-content: end;
   padding: 2em;
-  background-color: white;
+  background: papayawhip;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  align-content: center;
+  max-width: 500px;
+  width: 100%;
 }
