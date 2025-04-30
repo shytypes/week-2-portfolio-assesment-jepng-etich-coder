@@ -1,0 +1,51 @@
+.txt,
+.outro-txt {
+  line-height: 1.5rem;
+  margin-bottom: 0.5em;
+}
+
+.outro-txt {
+  font-weight: bold;
+  color: black;
+}
+
+.btn-2 {
+  padding: 0.5em;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  margin: 0.5em 0 2em 0;
+}
+
+.btn-2:hover {
+  background-image: linear-gradient(-45deg, #7e47ff, #fff);
+}
+
+input {
+  padding: 0.5em;
+  margin: 0.5em 0 0.5em 0;
+  border-radius: 5px;
+  border: 1px solid #333;
+  width: 98%;
+  transition: all 0.3s ease-in-out;
+}
+
+input:hover {
+  border: 1px solid #7e47ff;
+  background-color: #f0f0f0;
+}
+.message {
+  height: 5em;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  align-content: center;
+}
