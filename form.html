@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/form.css" />
+  </head>
+  <body>
+    <div class="container-main">
+      <div class="container">
+        <form id="form">
+          <div class="container-card">
+            <div class="card">
+              <label for="firstname">First Name:</label>
+              <input type="text" id="firstName" required />
+              <label for="secondname">Second Name:</label>
+              <input type="text" id="secondName" required />
+              <label for="email">Email:</label>
+              <input type="text" id="email" required />
+              <label for="message">Message:</label>
+              <input class="message" id="message" type="text" required />
+              <button type="submit" class="btn-2">Send</button>
+            </div>
+          </div>
+        </form>
+        <section>
+          <ul id="output"></ul>
+        </section>
+      </div>
+    </div>
+    <script src="script/form.js"></script>
+  </body>
+</html>
